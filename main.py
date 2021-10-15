@@ -1,6 +1,5 @@
 from fpdf import FPDF
 from math import ceil
-from time import sleep
 from datetime import date
 from PySimpleGUI import PySimpleGUI as sg
 
