@@ -9,6 +9,14 @@ An app that automatically calculates the **Computed Air Release Point**, an opti
 ![Flight Computer](flight_computer.jpg "Flight Computer")
 
 
+Altough hard to demonstrate all the functionalities of the computer, with its round shape, almost all the calculations are made in a linear form. That was the core concept behind the making of this app. The initial process was to basically find the linear equations that lead to each parameter that must be found in the original (handmade) method. 
+
+With that out of the way, the next step was to learn and deploy the FPDF library (the most time consuming task in the development), as the final CARP drawing must be different for each operation.
+
+After all that done, the final step was setting up the GUI, with my selected library being PySimpleGUI, by its advertised and actual simplicity.
+
+The current challenge goes about optimizing the code, loadtime and size of the .exe file. (v 0.90)
+
 A sample demonstration can be seen in the **example.pdf** file. 
 
 The GUI display is available on **GUI_screenshot.png**
